@@ -60,6 +60,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  font-weight: 600;
 }
 
 .logo:hover {
@@ -90,7 +91,8 @@ a:hover {
   width: 100%;
   height: 2px;
   background-color: black;
-  transition: all 0.3 ease-in-out;
+  /* transition: 1s; */
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-links {
@@ -187,6 +189,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  font-size: 1.3em;
 }
 
 .section__text__p2 {
