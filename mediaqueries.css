@@ -87,8 +87,8 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
+    /* width: auto; */
+    /* height: 46vw; */
     justify-content: center;
   }
   .section__text__p2 {
@@ -100,4 +100,11 @@
   .text-container {
     text-align: justify;
   }
+}
+#profile-image::after,
+#profile-image::before {
+  
+  height: 100%;
+  /* width: 400px; */
+  /* border-radius: 0; */
 }
